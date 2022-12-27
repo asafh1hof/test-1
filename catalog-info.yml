@@ -1,4 +1,4 @@
-apiVersion: test-1/v10.0.0
+apiVersion: test-1/v1alpha1
 kind: Component
 metadata:
   name: shuffle-api-1
