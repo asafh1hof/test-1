@@ -1,4 +1,4 @@
-apiVersion: backstage.io/v10.0.0
+apiVersion: test-1/v10.0.0
 kind: Component
 metadata:
   name: shuffle-api-1
