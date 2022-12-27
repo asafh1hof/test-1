@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: shuffle-api-1
+  description: Shuffle API 1
+  tags:
+    - go
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
+  system: audio-playback
