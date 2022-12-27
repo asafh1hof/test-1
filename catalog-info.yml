@@ -1,8 +1,9 @@
-apiVersion: test-1/v1alpha1
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: shuffle-api-1
   description: Shuffle API 1
+  version: v0.0.0.1
   tags:
     - go
 spec:
