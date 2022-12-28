@@ -9,7 +9,7 @@ metadata:
     example.com/service-discovery: artistweb
     circleci.com/project-slug: github/example-org/artist-website
   tags:
-    - v
+    - java
   links:
     - url: https://admin.example-org.com
       title: Admin Dashboard
@@ -19,4 +19,3 @@ spec:
   lifecycle: production
   owner: artist-relations-team
   system: public-websites
-
