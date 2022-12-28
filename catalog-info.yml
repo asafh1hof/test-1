@@ -3,7 +3,6 @@ kind: Component
 metadata:
   name: shuffle-api-1
   description: Shuffle API 1
-  version: v0.0.0.1
   tags:
     - go
 spec:
@@ -11,3 +10,9 @@ spec:
   lifecycle: production
   owner: user:guest
   system: audio-playback
+  definition: |
+    info:
+      version: 1.0.0
+      title: Artist API
+      license:
+        name: MIT
