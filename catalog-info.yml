@@ -2,14 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: artist-web
-  description: The place to be, for great artists
+  description: v1.0.0
   labels:
     example.com/custom: custom_label_value
   annotations:
     example.com/service-discovery: artistweb
     circleci.com/project-slug: github/example-org/artist-website
-  tags:
-    - v1.0.0
   links:
     - url: https://admin.example-org.com
       title: Admin Dashboard
