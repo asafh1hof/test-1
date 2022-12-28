@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: <github-repo>
-  title:v1.0.0
+  title: v1.0.0
   description: My first Backstage catalog item.
   annotations:
     github.com/project-slug: <github-org>/<github-repo>
