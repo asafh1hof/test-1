@@ -2,7 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: test-1
-  title: v1.0.0
+  title: test-1
+  tag : v1.0.0
   description: My first Backstage catalog item.
 spec:
   type: service
