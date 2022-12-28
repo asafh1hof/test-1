@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: <github-repo>
+  name: asafh1hof/test-1
   title: v1.0.0
   description: My first Backstage catalog item.
   annotations:
-    github.com/project-slug: <github-org>/<github-repo>
+    github.com/project-slug: asafh1hof/test-1
 spec:
   type: service
-  owner: user:<github-username>
+  owner: user:asaf
   lifecycle: experimental
