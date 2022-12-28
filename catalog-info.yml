@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: artist-web
-  Version: v1.0.0
+  description: version v1.0.0
   labels:
     example.com/custom: custom_label_value
   annotations:
