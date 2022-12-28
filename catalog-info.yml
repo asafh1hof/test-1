@@ -1,18 +1,12 @@
 apiVersion: backstage.io/v1alpha1
-kind: component
+kind: Component
 metadata:
-  name: shuffle-api-1
-  description: Shuffle API 1
-  tags:
-    - go
+  name: <github-repo>
+  title:v.0.01
+  description: My first Backstage catalog item.
+  annotations:
+    github.com/project-slug: <github-org>/<github-repo>
 spec:
   type: service
-  lifecycle: production
-  owner: asaf
-  system: audio-playback
-  definition: |
-    info:
-      version: 1.0.0
-      title: Artist API
-      license:
-        name: MIT
+  owner: user:<github-username>
+  lifecycle: experimental
